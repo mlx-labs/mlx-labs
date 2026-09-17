@@ -25,7 +25,7 @@ jobs:
           echo "md=$MD" >> $GITHUB_OUTPUT
           echo "scripts=$SCRIPTS" >> $GITHUB_OUTPUT
       - name: Comment on PR
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
           message: |
             ## 🤖 PR summary
