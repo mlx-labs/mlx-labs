@@ -26,7 +26,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^18.0.1"
   },
   "optionalDependencies": {
     "playwright": "^1.49.0",
